@@ -6,38 +6,31 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
-import java.util.HashSet;
-import java.util.Set;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
 @Builder
-@Table(name = "tbl_posts")
+@EqualsAndHashCode
 @Entity
-public class Post {
+@Table(name = "tbl_comments")
+public class Comment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(nullable = false)
-    private String title;
-    private String url;
+    private String name;
     @Column(nullable = false)
-    @Lob
+    private String email;
     private String content;
-    private String shortDescription;
-
+    @Column(name = "created_date")
     @CreationTimestamp
     private LocalDateTime createDate;
+    @Column(name = "updated_date")
     @UpdateTimestamp
     private LocalDateTime updateDate;
-
     @ManyToOne
-    @JoinColumn(name = "created_by", nullable = false)
-    private  User createdBy;
-
-    @OneToMany(mappedBy = "post", cascade = CascadeType.REMOVE)
-    private Set<Comment> comments = new HashSet<>();
-
+    @JoinColumn(name = "post_id", nullable = false)
+    private Post post;
 }

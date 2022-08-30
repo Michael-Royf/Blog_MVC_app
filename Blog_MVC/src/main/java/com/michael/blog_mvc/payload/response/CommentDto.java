@@ -3,21 +3,17 @@ package com.michael.blog_mvc.payload.response;
 import lombok.*;
 
 import java.time.LocalDateTime;
-import java.util.Set;
-
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Getter
 @Setter
-@Builder
 @EqualsAndHashCode
-public class PostDto {
+public class CommentDto {
     private Long id;
-    private String title;
-    private String url;
+    private String name;
+    private String email;
     private String content;
-    private String shortDescription;
     private LocalDateTime createDate;
     private LocalDateTime updateDate;
-    private Set<CommentDto> comments;
 }

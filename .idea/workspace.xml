@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27233f1c-1c48-4877-9ce1-95445e40160e" name="Changes" comment="" />
+    <list default="true" id="27233f1c-1c48-4877-9ce1-95445e40160e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Blog_MVC/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog_MVC/src/main/resources/templates/admin/create_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog_MVC/src/main/resources/templates/admin/edit_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog_MVC/src/main/java/com/michael/blog_mvc/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blog_MVC/src/main/java/com/michael/blog_mvc/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog_MVC/src/main/java/com/michael/blog_mvc/payload/request/PostRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blog_MVC/src/main/java/com/michael/blog_mvc/payload/request/PostRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog_MVC/src/main/java/com/michael/blog_mvc/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blog_MVC/src/main/java/com/michael/blog_mvc/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog_MVC/src/main/java/com/michael/blog_mvc/service/impl/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blog_MVC/src/main/java/com/michael/blog_mvc/service/impl/PostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog_MVC/src/main/resources/templates/admin/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog_MVC/src/main/resources/templates/admin/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog_MVC/src/main/resources/templates/admin/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog_MVC/src/main/resources/templates/admin/posts.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2Df87C0m51Zsbn1S3CnFCfuDiEe" />
   <component name="ProjectViewState">
@@ -15,7 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../XXX_Project_Blog_MVC/springboot-blog-webapp" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -26,6 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661078609548</updated>
       <workItem from="1661078610648" duration="252000" />
+      <workItem from="1661253381196" duration="8000" />
     </task>
     <servers />
   </component>
